@@ -1,0 +1,42 @@
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: darkgreen;  
+color: white; 
+}
+h1 {
+color: gold;  
+}
+a {
+color: cornflowerblue; 
+text-decoration: solid;  
+}
+a:hover {
+color: khaki;
+}
+ul > li {
+font-weight: bolder;
+}
+h1 + p {
+background-color: lightgreen;  
+padding: 10px;
+border-radius: 5px;
+}
+ul li:hover {
+color: yellow;  
+}
+ul li:nth-child(3) {
+background-color: black;  
+}
+p:not(:first-of-type) {
+text-decoration: overline;
+}
+ul li::before {
+content: "🏸 ";  
+}
+a::after {
+content: "🏸";  
+}
+p::first-letter {
+font-size: 200%;
+color: azure;  
+}
